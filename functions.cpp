@@ -8,5 +8,10 @@ Purpose: A Simple C++ Program that uses command line parameters.
 
 int string_length(const char *str)
 {
-    return 0;
+    int length = 0;
+    while(str[length] != '\0')
+    {
+        length++;
+    }
+    return length;
 }
